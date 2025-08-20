@@ -1,0 +1,19 @@
+name: hpc-python
+channels:
+  - conda-forge
+dependencies:
+  - fasteners
+  - jupyter
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - line_profiler
+  - numba
+  - cupy
+  - pip
+  - scikit-learn
+  - scipy
+  - pip:
+    - mpi4py
+  
